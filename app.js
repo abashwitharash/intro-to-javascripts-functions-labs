@@ -95,3 +95,21 @@ function convertTemperature(newTemperature, Scale) {
     }
     
 console.log('Exercise 8 Result:', convertTemperature(32, "C"));
+
+// Exercise 9 Basic calculator 
+
+function basicCalculator(x , y, operation) {
+    if (operation === "subtract") {
+        return (x-y); 
+    } else if (operation === "add") {
+        return (x+y);
+    } else if (operation === "multiply") {
+        return (x*y);
+    } else if (operation === "divide") {
+        return (x/y);
+    } else {
+        return "invalid"
+    }
+    }
+    console.log('Exercise 9 Result:', basicCalculator(10, 4, "subtract"));
+
