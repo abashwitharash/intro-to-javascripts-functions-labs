@@ -61,3 +61,18 @@ function greetUser(Name, timeOfDay) {
     }
     console.log('Exercise 5 Result:', greetUser("Sam", "afternoon"));
 
+//Exercise 6 max of 3
+
+function maxOfThree(numberOne, numberTwo, numberThree) {
+    if (numberOne > numberTwo && numberOne > numberThree) {
+        return `${numberOne}`; 
+    } else if (numberTwo > numberOne && numberTwo > numberThree) {
+        return `${numberTwo}`; 
+    } else {
+        return `${numberThree}`;
+    
+    }
+    }
+    console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
+
+    
