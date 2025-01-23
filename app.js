@@ -83,4 +83,15 @@ function maxOfThree(numberOne, numberTwo, numberThree) {
        }
 console.log('Exercise 7 Result:', calculateTip(50, 20));
 
+// Exercise 8 convert temp
 
+function convertTemperature(newTemperature, Scale) {
+    if (Scale === "C") {
+        return (newTemperature * 1.8) + 32;
+    } else if (Scale === "F") {
+        return (newTemperature - 32) / 1.8;
+    } else 
+    return "invalid";
+    }
+    
+console.log('Exercise 8 Result:', convertTemperature(32, "C"));
