@@ -40,4 +40,10 @@ function isCharAVowel(character) {
     }
     console.log('Exercise 3 Result:', isCharAVowel("a"));
 
+// Exercise 4
 
+function generateEmail(fullName, emailAddress) {
+    return `${fullName}${emailAddress}`;
+}
+
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
