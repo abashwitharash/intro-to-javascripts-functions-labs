@@ -20,14 +20,24 @@ const maxOfTwoNumbers = (x, y) => {
 
 
   //Exercise 2 
-
-
 function isAdult(number) {
     if (number >= 18) {
-    return "Adult";}
-    else {
+        return "Adult";
+    } else {
         return "Minor";
     }
 }
+console.log('Exercise 2 Result:', isAdult(21));
 
-    console.log('Exercise 2 Result:', isAdult(21));
+// Exercise 3 Vowels are the letters A, E, I, O, U
+
+function isCharAVowel(character) {
+ if (character === "a" || character === "e" || character === "i" || 
+    character === "o" || character === "u") {
+        return "True"; 
+    } else 
+    return "false" 
+    }
+    console.log('Exercise 3 Result:', isCharAVowel("a"));
+
+
